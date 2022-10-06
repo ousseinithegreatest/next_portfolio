@@ -1,0 +1,72 @@
+.header {
+  width: 100%
+}
+
+.nav  {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 60px;
+}
+
+.nav h1 {
+  color: #fb9039;
+  font-weight: 600;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav ul li {
+  padding: 0 10px;
+}
+
+.nav ul a {
+  text-decoration: none;
+  color: #000;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.nav ul a:hover {
+  color: #fb9039;
+}
+
+.presentation {
+  /* background: rebeccapurple; */
+  margin: 20px 270px;
+  padding: 10px;
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.presentation h2 {
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.about {
+  margin-top: 80px;
+  width: auto;
+  /* background-color: aqua; */
+  width: 650px;
+}
+
+.about p {
+  font-size: 50px;
+}
+
+.about ul {
+  list-style: none;
+  display: flex;
+}
+
+.about span {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fb9039;
+}
